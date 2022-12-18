@@ -1,0 +1,330 @@
+@import url(./reset.css);
+
+*, *:before, *:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+    #main-header {
+        background-image: url(../images/main-page-background-billy-huynh-W8KTS-mhFUE-unsplash.jpg) ;
+        background-size: cover;
+        height: 350px;
+        
+        
+    }
+
+    #main-nav ul {
+        display: flex;
+        gap: 2em;
+        justify-content: center;
+        list-style: none;
+        color:E4DFDA ;
+    }
+
+    #main-nav a {
+        display: flex;
+        height: 80px;
+        align-items: center;    
+        text-decoration: none;
+        transition: 0.25;
+        padding: 2em;
+        color: #E4DFDA;
+
+    
+    }
+    #main-nav a:hover {
+        background-color:#48A9A6;
+        color: black;
+    }
+
+     #main-nav .special a:hover{
+        background-color:rgba(0, 255, 255, 0); 
+        
+    }
+
+    #main-header h1 {
+        color: #E4DFDA;
+        display: flex;
+        justify-content: center;
+        padding: 1em;
+        font-size: 3.4em;
+        text-shadow: 1px 1px 1px black;
+    }
+    #main-header h2 {
+        color: #E4DFDA;
+        display: flex;
+        justify-content: center;
+        font-size: 2.1em;
+        text-shadow: 1px 1px 1px black;
+    }
+
+    #main-main {
+        padding-top: 2em;
+        background-color: #D4B483;
+        max-width: 1550px;
+    }
+
+    .main-div {
+       width: 100%;
+        padding: 1em;
+        margin-bottom: 2em;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2em;
+        
+    }
+    .main-div div {
+    background-color: #4281A4 ;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+    border: solid 1px black;
+    overflow: hidden;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .main-div h3{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+
+        font-size: 2.5em;
+        
+    }
+
+    .main-div p {
+        display: flex;
+        line-height: 1.5em;
+        color: black;
+        font-size: 2em;
+    }
+   
+     
+    .main-div img {
+        height: 300px;
+        width: 600px;
+        float: right;
+        border: solid 1px black;
+        overflow: hidden;
+       
+    }
+    
+    figure {
+        float: right;
+        margin-bottom: 2em;
+        max-width: 30%;
+        display: flex;
+        flex-direction: column;
+        padding-left: 8em;
+        padding-top: 5em;
+
+        
+    }
+    
+    figure cite {
+        display: block;
+        text-decoration: none;
+        display: flex;
+    }
+    
+    figure cite a {
+        text-decoration: none;
+        color: black;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 10pt;
+        
+    }
+
+    #main-aside {
+        
+        height: 250px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: solid 1px black;
+        overflow: hidden;
+        background-color: #C1666B;
+        
+        
+    }
+    
+    #aside-p {
+        padding: 1em;
+        font-size: 12pt;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        width: 400px;
+        background-color: #4281A4;
+        border: solid 1px black;
+        overflow: hidden;
+
+        
+        
+
+    }
+
+    footer {
+        background-color: #FFEE88;
+        height: 50px;
+        display: flex;
+        align-items: center;
+      
+        flex-direction: column;
+    }
+    
+    footer h4, p {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 10pt;
+        padding-top: .5em;
+    
+    }
+
+    /*about*/
+    .header  {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: #C1666B;
+        }
+
+    .header h1 {
+        font-size: 3.4em;
+        color: #E4DFDA;
+        text-shadow: 1px 1px 1px black;  
+    }
+
+    #about-body {
+        background-color: #48A9A6; 
+    }
+
+    #about-div {
+        margin-bottom: 2em;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 2em; 
+    }
+
+    #about-div h2 {
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #D4B483;
+        font-size: 21pt;
+        line-height: 2em;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-style: italic;
+        color: #4281A4;
+        padding: 2em;
+        border: solid 1px black; 
+        margin: 1em;
+    }
+
+    #about-div main {
+        display: flex;
+        margin-top: 50px;
+        width: 60%;
+       
+    }
+
+    #about-div p {
+    line-height: 1.5em;
+    color: #C1666B;
+    font-size: 1.2em;
+    line-height: 2em;
+    background-color: #FFEE88;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+    }
+
+    #about-aside {
+        display: flex;
+        width: 35%;
+       
+    }
+
+    
+    #about-aside figure {
+    float: left;
+    margin-right: 2em;
+    margin-bottom: 2em;
+    }
+
+    #about-aside figure img {
+    width: 600px;
+    height: 300px;
+    }
+    
+
+
+    #about-aside aside {
+       font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: 1.5em;
+      background-color: #D4B483;
+      
+      
+    }
+   
+    
+   
+    /*products */ 
+
+    .nav-div {
+        
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .cart {
+        position: relative;
+        background-color: #E4DFDA;
+        padding: 5px;
+        font-size: 30px;
+        border-radius: 5px;
+    }
+     
+
+        .cartAmount {
+            position: absolute;
+            top: -10px;
+            right: -5px;
+            padding: 5px;
+            border-radius: 2px;
+           font-size: 16px;
+           background-color: red;
+           color: #E4DFDA; 
+        }
+       
+        .shop {
+            display: grid;
+            grid-template-columns: repeat(4, 223px);
+        }
+        
+        .item {
+            border:solid 1px #4281A4 ;
+            border-radius: 5px;
+
+        }
+
+
+ 
+
